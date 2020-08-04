@@ -28,6 +28,11 @@
     font: 1.6rem Archivo;
 }
 
+#page-teacher-list main {
+    margin: 4rem auto;
+    width: 90%;
+}
+
 @media (min-width: 700px) {
     #page-teacher-list {
         max-width: 100%;
@@ -41,4 +46,8 @@
         bottom: -24px;
     }
 
+    #page-teacher-list main {
+        max-width: 740px;
+        margin: 4rem auto 0;
+    }
 }
