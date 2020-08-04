@@ -1,0 +1,44 @@
+#page-teacher-list {
+    width: 100vw;
+    height: 100vh;
+}
+
+#search-teachers {
+    margin-top: 3.5rem;
+}
+
+.input-block {
+    margin-top: 1.5rem;
+}
+
+.input-block label {
+    font-size: 1.2rem;
+    color: var(--color-text-in-primary);
+}
+
+.input-block input {
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 0.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    outline: 0;
+    background: var(--color-input-background);
+    font: 1.6rem Archivo;
+}
+
+@media (min-width: 700px) {
+    #page-teacher-list {
+        max-width: 100%;
+    }
+
+    #search-teachers {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        position: absolute;
+        bottom: -24px;
+    }
+
+}
