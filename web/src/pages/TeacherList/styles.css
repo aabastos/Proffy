@@ -28,6 +28,35 @@
     font: 1.6rem Archivo;
 }
 
+.input-block select {
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    outline: none;
+    background: var(--color-input-background);
+    font: 1.6rem Archivo;
+}
+
+#search-teachers button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-primary-dark);
+    color: var(--color-button-text);
+    border: none;
+    border-radius: 1rem;
+    font: 700 1.7rem Archivo;
+    transition: 0.2s;
+}
+
+#search-teachers button:hover {
+    background: var(--color-primary-darker);
+    cursor: pointer;
+}
+
 #page-teacher-list main {
     margin: 4rem auto;
     width: 90%;
@@ -40,10 +69,14 @@
 
     #search-teachers {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 16px;
         position: absolute;
         bottom: -24px;
+    }
+
+    #search-teachers button {
+        margin-top: 4.3rem;
     }
 
     #page-teacher-list main {
