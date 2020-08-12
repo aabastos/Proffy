@@ -22,7 +22,35 @@ const styles = StyleSheet.create({
     },
 
     titleBold: {
-        fontWeight: 'bold'
+        fontFamily: 'Poppins_600SemiBold'
+    },
+
+    buttonsContainer: {
+        flexDirection: 'row',
+        marginTop: 40,
+        justifyContent: 'space-between'
+    },
+
+    button: {
+        height: 150,
+        width: '48%',
+        borderRadius: 8,
+        padding: 24,
+        justifyContent: 'space-between'
+    },
+
+    buttonPrimary: {
+        backgroundColor: '#9871f5'
+    },
+
+    buttonSecondary: {
+        backgroundColor: '#04d361'
+    },
+
+    buttonText: {
+        fontFamily: 'Archivo_700Bold',
+        color: '#FFF',
+        fontSize: 20
     }
 });
 
